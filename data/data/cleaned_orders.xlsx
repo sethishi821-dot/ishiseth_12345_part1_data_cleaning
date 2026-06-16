@@ -1,0 +1,24 @@
+## Task 2: Clean Text Fields
+
+The following fields were cleaned and standardized:
+
+- customer_name
+- segment
+- region
+- state
+- city
+- category
+- sub_category
+- ship_mode
+- payment_status
+- order_status
+
+Cleaning performed:
+- Removed leading and trailing spaces using TRIM()
+- Removed extra spaces between words
+- Standardized capitalization using PROPER()
+- Removed unwanted special characters using SUBSTITUTE()
+- Standardized inconsistent category and status values using Find & Replace and Flash Fill
+
+Result:
+All text fields were converted into a consistent and analysis-ready format.
