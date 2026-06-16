@@ -1,0 +1,29 @@
+## Task 6: Calculated Columns
+
+The following calculated columns were added to the cleaned dataset:
+
+1. cleaned_discount
+   - Standardized discount value after business rule validation.
+
+2. calculated_sales
+   - Calculated using quantity, unit_price, and cleaned_discount.
+
+3. calculated_profit
+   - Calculated as calculated_sales minus cost.
+
+4. profit_margin
+   - Calculated as calculated_profit divided by calculated_sales.
+
+5. shipping_delay_days
+   - Calculated as the difference between ship_date and order_date.
+
+6. order_month
+   - Extracted month from order_date.
+
+7. order_year
+   - Extracted year from order_date.
+
+8. data_quality_flag
+   - Categorized records as Clean, Warning, or Invalid.
+
+Additional calculated columns may be added if required for analysis.
