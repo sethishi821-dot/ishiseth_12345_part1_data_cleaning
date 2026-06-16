@@ -1,0 +1,19 @@
+## Task 8: Pivot Summary Report
+
+Created outputs/pivot_summary.xlsx containing:
+
+1. Sales and Profit by Region
+2. Sales and Profit by Category and Sub-Category
+3. Order Count by Ship Mode
+4. Profit Margin by Customer Segment
+5. Refunded, Cancelled, and Failed Orders by Region
+6. Monthly Sales Trend
+
+Sorting Applied:
+- Sales by Region sorted from highest to lowest sales
+- Monthly Sales Trend sorted chronologically
+
+Filtering Applied:
+- Category/Sub-Category summary filtered for completed orders
+- Business status filters applied where required
+
