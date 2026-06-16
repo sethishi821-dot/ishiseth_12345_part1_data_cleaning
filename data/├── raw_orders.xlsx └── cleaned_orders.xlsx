@@ -1,0 +1,13 @@
+## Task 1: Preserve Raw Data
+
+The original dataset was preserved in:
+
+data/raw_orders.xlsx
+
+No modifications were made to the raw file.
+
+A separate working copy was created:
+
+data/cleaned_orders.xlsx
+
+All data cleaning, validation, calculated columns, and business rule applications were performed in the cleaned file only.
