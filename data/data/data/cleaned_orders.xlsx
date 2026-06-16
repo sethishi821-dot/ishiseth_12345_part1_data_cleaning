@@ -1,0 +1,16 @@
+## Task 3: Clean and Validate Dates
+
+Fields cleaned:
+- order_date
+- ship_date
+
+Actions performed:
+- Converted all valid dates into a consistent DD-MM-YYYY format.
+- Identified and flagged missing dates.
+- Identified and flagged invalid date values.
+- Identified text values that could not be recognized as dates.
+- Flagged records where ship_date occurred before order_date.
+- Created shipping_delay_days to measure delivery time.
+
+Result:
+Date fields were standardized and validated for business reporting.
