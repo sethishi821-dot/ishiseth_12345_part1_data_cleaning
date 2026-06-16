@@ -1,0 +1,11 @@
+## Task 7: Data Quality Report
+
+Created outputs/data_quality_report.xlsx containing:
+
+1. Missing Value Summary
+2. Duplicate Summary
+3. Invalid Discount Summary
+4. Date Issue Summary
+5. Order Status Issue Summary
+6. Sales and Profit Calculation Mismatch Summary
+7. Final Clean vs Flagged Record Count
